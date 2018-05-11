@@ -17,7 +17,7 @@
 #### Note to Reviewer
 Download private key from the repository and type the following in terminal:
 ```
-ssh -i <path_to_key> grader@54.200.106.197 -p 2200
+ssh -i <path_to_key> grader@18.236.184.190 -p 2200
 ```
 
 #### The configuration summary
