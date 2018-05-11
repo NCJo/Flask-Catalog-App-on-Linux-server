@@ -9,12 +9,23 @@
 
 
 #### How to run
-1.) clone or download "private key"
-2.) public IP address: 54.200.106.197
-3.) SSH post: 2200
-4.) Click [this](http://54.200.106.197/catalog) to get to the main page!
+1. clone or download "private key"
+2. public IP address: 18.236.184.190
+3. SSH post: 2200
+4. Click [this link](http://18.236.184.190/) to get to the main page!
 
-#### In terminal
+#### Note to Reviewer
+Download private key from the repository and type the following in terminal:
 ```
 ssh -i <path_to_key> grader@54.200.106.197 -p 2200
 ```
+
+#### The configuration summary
+1. Change port from 22 to 2200
+2. Configuring Firewall to allow SSH, http, and ntp
+3. Change local timezone to UTC
+4. Install Apache
+5. Install PostgreSQL
+6. Configure database
+7. add Grader user and grant the user sudo permission
+8. Installed Python2 and all its dependencies
