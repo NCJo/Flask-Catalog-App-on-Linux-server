@@ -8,14 +8,16 @@
 * HTML/CSS
 
 
-#### How to run
+#### Note to reviewer
 1. clone or download "private key"
+```
+git clone https://github.com/NCJo/Flask-Catalog-App-on-Linux-server.git
+```
 2. public IP address: 18.236.184.190
 3. SSH post: 2200
 4. Click [this link](http://18.236.184.190/) to get to the main page!
 
-#### Note to Reviewer
-Download private key from the repository and type the following in terminal:
+5. Type the following into the terminal
 ```
 ssh -i <path_to_key> grader@18.236.184.190 -p 2200
 ```
