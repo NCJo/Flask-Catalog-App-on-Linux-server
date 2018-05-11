@@ -29,3 +29,7 @@ ssh -i <path_to_key> grader@18.236.184.190 -p 2200
 6. Configure database
 7. add Grader user and grant the user sudo permission
 8. Installed Python2 and all its dependencies
+
+#### Useful resources!
+1. [How to figure SSH key-based authentication on a linux server](https://www.digitalocean.com/community/tutorials/how-to-configure-ssh-key-based-authentication-on-a-linux-server)
+2. [How to deploy a flask application on an Ubuntu](https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps)
