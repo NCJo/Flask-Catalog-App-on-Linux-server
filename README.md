@@ -139,15 +139,15 @@ ssh -i ~/.ssh/<amazon-default-key-that-you downloaded-from-account> ubuntu@<ip a
 * `sudo nano catalog.wsgi`
 ```
 #!/usr/bin/python
-  import sys
-  import logging
-  logging.basicConfig(stream=sys.stderr)
-  # this point to where the main.py is
-  sys.path.insert(0,"/var/www/catalog/catalog")
+import sys
+import logging
+logging.basicConfig(stream=sys.stderr)
+# this point to where the main.py is
+sys.path.insert(0,"/var/www/catalog/catalog")
 
-  # replace 'catalog' with whatever your main.py is
-  from catalog import app as application
-  application.secret_key = 'Add your secret key'
+# replace 'catalog' with whatever your main.py is
+from catalog import app as application
+application.secret_key = 'Add your secret key'
 ```
 * `sudo service apache2 restart`
 ###### Clone Git repo
